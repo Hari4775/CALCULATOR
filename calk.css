@@ -1,0 +1,45 @@
+.main-body{   width: 374px;
+    height: 683px;
+    margin-top: 40px;
+    margin-left: 516px;
+    border-radius: 16px;
+
+
+}
+
+
+button{    width: 112px;
+    margin-left: 3px;
+    height: 79px;
+    margin-top: 33px;
+}
+
+button1
+{    width: 96px;
+    height: 44px;
+    margin-top: 10px;}
+
+
+.num{  width: 80px;
+    margin-left: 10px;
+    height: 76px;
+    margin-top: 4px;
+   color:green;
+   font-size: 26px;
+    font-weight: bolder;
+    background-color:rgb(184, 184, 193);}
+
+    .right{width: 80px;
+        margin-left: 10px;
+    margin-bottom: 12px;
+        height: 77px;
+        margin-top: 4px;
+        color: aqua;
+        font-weight: bolder;
+        font-size: 30px;
+        background-color: rgb(169, 157, 157);
+    }
+        .equalss{    width: 112px;
+            margin-left: 3px;
+            height: 109px;
+            margin-top: 3px;}

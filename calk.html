@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="calk.css"></link>
+    <title>Calkulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-14 bg-gradient-to-r from-blue-600 to-green-400">
+
+  <div class="main-body bg-stone-950 ">
+    <div class="calk  " style="height: 156px; border-radius: 10px;"> 
+        <div class="output" style="margin-bottom: 44px; margin-bottom: 91px;">
+            <input type="text" id="screen" style="    width: 90%;margin-left: 5%;border-radius: 10px;;color: white;
+               margin-top: 49px; height: 144px; pointer-events: none; font-size:56px ;    height: 162px;
+    border-color: rgb(133, 128, 128);" class=" bg-slate-950">
+        </div>
+        <div class="buttons">
+          <div class="row" style=" margin-top: 2px;   width: 100%;
+          margin-left: 0px;">
+                <button  class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800" onclick="buttonclick(7)">7</button>
+
+                <button  class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800" onclick="buttonclick(8)">8</button>
+
+                <button  class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800" onclick="buttonclick(9)">9</button>
+                <button class="right  rounded-full  bg-cyan-950  hover:bg-cyan-650 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-cyan-300" onclick="buttonclick('/')">/</button>
+
+            </div>
+
+            <div class="row " style=" margin-top: 2px;   width: 100%;
+            margin-left: 0px;">
+                  <button    class="num  rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800" onclick="buttonclick(4)">4</button>
+
+                  <button   class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800" onclick="buttonclick(5)">5</button>
+
+                  <button   class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800"onclick="buttonclick(6)">6</button>
+
+                  <button  class="right rounded-full  bg-cyan-950  hover:bg-cyan-650 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-cyan-300" onclick="buttonclick('*')">X</button>
+  
+              </div>
+              <div class="row " style=" margin-top: 2px;   width: 100%;
+              margin-left: 0px;">
+
+                    <button  class="num  rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800"onclick="buttonclick(1)">1</button>
+
+                    <button  class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800" onclick="buttonclick(2)">2</button>
+
+                    <button  class="num rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800 "           onclick="buttonclick(3)">3</button>
+
+                    <button class="right rounded-full  bg-cyan-950  hover:bg-cyan-650 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-cyan-300" onclick="buttonclick('-')">-</button>
+    
+                </div>
+                <div class="row" style=" margin-top: 2px;   width: 100%;
+                margin-left: 0px;">
+                                      
+                      <button class="right rounded-full text-red-600 bg-red-950  hover:bg-red-650 active:bg-red-700 focus:outline-none focus:ring focus:ring-red-300 ;"  onclick="cleard()">CLR</button>
+                      
+                      <button  class="num rounded-full  rounded-full   hover:bg-green-650 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 ; bg-slate-800"  onclick="buttonclick(0)">0</button>
+
+                      <button class="right rounded-full text-red-600 bg-red-950  hover:bg-red-650 active:bg-red-700 focus:outline-none focus:ring focus:ring-red-300 ; " onclick="equalclick('=')">=</button>
+
+                      <button class="right rounded-full bg-cyan-950  hover:bg-cyan-650 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-cyan-300"  onclick="buttonclick('+')">+</button>
+
+                      
+
+      
+                  </div>
+
+        </div>
+
+
+    </div>
+  </div>
+
+    <script src="calk.js"></script>
+  </body>
+</html>
